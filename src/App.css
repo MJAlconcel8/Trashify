@@ -1,5 +1,5 @@
 .elementsInNavbar {
-  background-color: #c3d5c6;
+  background-color: #1C6041;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@
 }
 .page {
   margin: 0 10px; /* Adjust this value as needed */
+  color:#FFFFFF;
 }
 
 @media (max-width: 991px) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/image-removebg-preview (1) 1.png'
+import logo from '../assets/image 1.png'
 import logout from '../assets/log-in.svg'
 
 const Navbar = () => {

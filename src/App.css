@@ -1,0 +1,47 @@
+.elementsInNavbar {
+  background-color: #c3d5c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  white-space: nowrap;
+  padding: 10px 60px;
+}
+.elementsInNavbar .navbarPages {
+  display: flex;
+  align-items: center;
+  margin: 0 10px; /* Adjust this value as needed */
+}
+.page {
+  margin: 0 10px; /* Adjust this value as needed */
+}
+
+@media (max-width: 991px) {
+  .elementsInNavbar {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+
+.trashify {
+  object-fit: auto;
+  object-position: center;
+  width: 150px; /* Adjust this value to make the logo smaller */
+  max-width: 100%;
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  left: 100px; /* Adjust as needed */
+}
+
+.logout{
+  object-fit: auto;
+  object-position: center;
+  width: 27px; /* Adjust this value to make the logo smaller */
+  max-width: 100%;
+  position: absolute;
+  right: 200px; /* Adjusted value to move it slightly to the right */
+}
+
+

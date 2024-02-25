@@ -1,0 +1,51 @@
+h1 {
+    margin: 0 auto;
+    margin-top: 7.875rem;
+    text-align: center;
+    color: #1C6041;
+}
+
+a {
+    text-decoration: none;
+}
+
+.location-cards {
+    margin: 6.125rem auto;
+    width: 90%;
+}
+
+.__card {
+    margin: 2.5rem auto;
+    background-color: #C3D5C6;
+    display: flex;
+    border-radius: 20px;
+    color: #1C6041;
+    padding: 1rem 0;
+}
+
+.__card:hover {
+    background-color: #ffffff;
+    box-shadow: 2px 3px #C3D5C6;
+    transition: linear 400ms;
+
+}
+
+.map-icon {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.info {
+    width: 80%;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.address {
+    font-size: 16px;
+    margin: 0;
+}

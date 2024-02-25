@@ -6,6 +6,7 @@
     font-size: 18px;
     font-weight: 400;
     height: 64px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .elementsInNavbar .navbarPages {
@@ -18,13 +19,6 @@
     margin: 0 10px;
     font-family: Inter, sans-serif;
     color: #FFFFFF;
-}
-
-@media (max-width: 991px) {
-    .elementsInNavbar {
-        white-space: initial;
-        padding: 0 20px;
-    }
 }
 
 .rectangleTrashify {
@@ -42,4 +36,28 @@
     max-width: 100%;
     position: absolute;
     right: 200px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 991px) {
+    .elementsInNavbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start of the container */
+        padding: 10px; /* Adjust padding as needed */
+        height: auto; /* Allow the navbar to grow in height */
+    }
+
+    .navbarPages {
+        margin-top: 10px; /* Add some space between items */
+    }
+
+    .rectangleTrashify,
+    .logout {
+        position: relative; /* Change position to relative for elements to flow in document order */
+        top: auto;
+        left: auto;
+        right: auto;
+        width: auto;
+        max-width: none;
+    }
 }

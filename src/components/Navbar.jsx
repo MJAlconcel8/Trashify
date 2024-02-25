@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <div className="elementsInNavbar">
-            <img src={logo} alt="" className="trashify" />
+            <img src={logo} alt="" className="rectangleTrashify" />
             <div className="navbarPages">
-                <span className='page'>RECYCLING LOCATION</span>
-                <span className='page'>COMMUNITY</span>
-                <span className='page'>STORES</span>
-                <span className='page'>WHO WE ARE</span>
+                <span className='navbarPage'>RECYCLING LOCATION</span>
+                <span className='navbarPage'>COMMUNITY</span>
+                <span className='navbarPage'>STORES</span>
+                <span className='navbarPage'>WHO WE ARE</span>
             </div>
             <img src={logout} alt="" className='logout'/>
         </div>

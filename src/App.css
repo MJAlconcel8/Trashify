@@ -14,8 +14,9 @@
   align-items: center;
   margin: 0 10px; /* Adjust this value as needed */
 }
-.page {
+.navbarPage {
   margin: 0 10px; /* Adjust this value as needed */
+  font-family: Inter, sans-serif;
   color:#FFFFFF;
 }
 
@@ -26,7 +27,7 @@
   }
 }
 
-.trashify {
+.rectangleTrashify {
   object-fit: auto;
   object-position: center;
   width: 150px; /* Adjust this value to make the logo smaller */
@@ -45,4 +46,18 @@
   right: 200px; /* Adjusted value to move it slightly to the right */
 }
 
+.footer{
+  background-color: #1c6041;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding: 42px 60px;
+  @media (max-width: 991px) {
+    padding: 0 20px;
+  }
+}
 

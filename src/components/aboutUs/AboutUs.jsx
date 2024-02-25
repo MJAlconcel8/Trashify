@@ -1,5 +1,6 @@
-import React from 'react'
-import './aboutUs.css'
+import React from 'react';
+import Carousel from '../carousel/carousel'; // Assuming carousel is exported as default from its file
+import './aboutUs.css';
 
 function AboutUs() {
   return (
@@ -16,12 +17,12 @@ function AboutUs() {
           <h1 className='com-title'>Community</h1>
           <p className='comm-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
           <div className="carousel">
-
+            <Carousel />
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default AboutUs
+export default AboutUs;

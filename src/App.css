@@ -61,3 +61,29 @@
   }
 }
 
+elementsInFooter {
+  display: flex;
+  flex-direction: column; /* Ensures elements stack vertically */
+}
+
+.footerPages {
+  display: flex;
+  align-items: center;
+  margin: 0 10px; /* Adjust this value as needed */
+}
+
+.footerPage {
+  margin: 0 10px; /* Adjust this value as needed */
+  font-family: Inter, sans-serif;
+  color: #FFFFFF;
+}
+
+.madeToronto,
+.trashifyExistance {
+  margin-top: 20px; /* Add spacing between these divs */
+}
+
+
+
+
+

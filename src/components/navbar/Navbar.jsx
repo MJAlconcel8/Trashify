@@ -10,8 +10,7 @@ const Navbar = () => {
         <div className="elementsInNavbar">
             <Link to='/'><img src={logo} alt="" className="rectangleTrashify"/></Link>
             <div className="navbarPages">
-                <Link to='/recycling-locations'><span className='navbarPage'>RECYCLING LOCATION</span></Link>
-                <Link to='/community'><span className='navbarPage'>COMMUNITY</span></Link>
+                <Link to='/recycling-locations'><span className='navbarPage'>RECYCLING-LOCATION</span></Link>
                 <Link to='/stores'><span className='navbarPage'>STORES</span></Link>
                 <Link to='/about-us'><span className='navbarPage'>WHO WE ARE</span></Link>
             </div>

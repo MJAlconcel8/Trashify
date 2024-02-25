@@ -1,0 +1,210 @@
+.img2-1-icon {
+    height: 273.8px;
+    width: 205.3px;
+    position: relative;
+    object-fit: cover;
+    min-height: 274px;
+  }
+  .trashify-is-a {
+    margin: 0;
+    align-self: stretch;
+    height: 130px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .trashify-is-a-game-changer-it-wrapper {
+    flex: 0.9839;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xl) var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+    min-width: 242px;
+    max-width: 100%;
+  }
+  .img4-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .img4-wrapper {
+    height: 274px;
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .trashify-has-become {
+    margin: 0;
+    align-self: stretch;
+    height: 144px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .img2-1-parent,
+  .trashify-has-become-my-go-to-a-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .trashify-has-become-my-go-to-a-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-6xl) 0 0;
+    box-sizing: border-box;
+    min-width: 236px;
+  }
+  .img2-1-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 38px;
+  }
+  .trashify-is-more {
+    margin: 0;
+    align-self: stretch;
+    height: 130px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .trashify-is-more-than-just-an-wrapper {
+    flex: 0.9415;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-23xl) var(--padding-3xl) 0 0;
+    box-sizing: border-box;
+    min-width: 244px;
+    max-width: 100%;
+  }
+  .img3-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .designer-rectangle1 {
+    height: 274px;
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base) 0 0;
+    box-sizing: border-box;
+  }
+  .finally-an-app {
+    margin: 0;
+    align-self: stretch;
+    height: 112px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .finally-an-app-that-makes-rec-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-21xl) 0 0;
+    box-sizing: border-box;
+    min-width: 245px;
+    max-width: 100%;
+  }
+  .img5-icon {
+    height: 273.8px;
+    width: 205.3px;
+    position: relative;
+    object-fit: cover;
+  }
+  .frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    gap: 0 28px;
+  }
+  .frame-container,
+  .frame-group,
+  .frame-parent-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    gap: 96px 0;
+  }
+  .frame-parent-inner {
+    width: 1274px;
+    flex-direction: row;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-seagreen);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1050px) {
+    .trashify-has-become-my-go-to-a-wrapper,
+    .trashify-is-a-game-changer-it-wrapper {
+      flex: 1;
+    }
+    .img2-1-parent {
+      flex-wrap: wrap;
+    }
+    .finally-an-app-that-makes-rec-wrapper,
+    .trashify-is-more-than-just-an-wrapper {
+      flex: 1;
+    }
+    .frame-container {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .img2-1-parent {
+      gap: 0 38px;
+    }
+    .frame-group {
+      gap: 96px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .finally-an-app,
+    .trashify-has-become,
+    .trashify-is-a,
+    .trashify-is-more {
+      font-size: var(--font-size-base);
+    }
+}

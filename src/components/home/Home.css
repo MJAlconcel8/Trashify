@@ -1,0 +1,54 @@
+.designer-1-1 {
+    height: 673px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .designer-rectangle {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 44px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .desktop-1,
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    align-items: center;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    align-items: flex-start;
+    gap: 124px 0;
+    letter-spacing: normal;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 750px) {
+    .designer-rectangle {
+      padding-bottom: 29px;
+      box-sizing: border-box;
+    }
+    .desktop-1 {
+      gap: 124px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .desktop-1 {
+      gap: 124px 0;
+    }
+  }

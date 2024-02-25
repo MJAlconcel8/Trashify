@@ -15,7 +15,7 @@ function AboutUs() {
       <div className="community">
         <div className="community-content">
           <h1 className='com-title'>Community</h1>
-          <p className='comm-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+          <p className='comm-p'>The Trashify community motivates and empowers individuals to make a difference together, fostering a supportive environment where you can inspire and be inspired to recycle more. Join Trashify today and start making a positive impact on the planet!</p>
           <div className="carousel">
             <Carousel />
           </div>

@@ -1,7 +1,8 @@
 import React from 'react'
+import './navbar.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom' 
-import logo from '../assets/image 1.png'
-import logout from '../assets/log-in.svg'
+import logo from '../../assets/image 1.png'
+import logout from '../../assets/log-in 1.png'
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
             <img src={logo} alt="" className="rectangleTrashify"/>
             <div className="navbarPages">
                 <Link to='/recycling-locations'><span className='navbarPage'>RECYCLING LOCATION</span></Link>
-                <span className='navbarPage'>COMMUNITY</span>
-                <span className='navbarPage'>STORES</span>
-                <span className='navbarPage'>WHO WE ARE</span>
+                <Link to='/community'><span className='navbarPage'>COMMUNITY</span></Link>
+                <Link to='/stores'><span className='navbarPage'>STORES</span></Link>
+                <Link to='/about-us'><span className='navbarPage'>WHO WE ARE</span></Link>
             </div>
             <img src={logout} alt="" className='logout'/>
         </div>

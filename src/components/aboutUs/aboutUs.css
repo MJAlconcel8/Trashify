@@ -1,0 +1,50 @@
+.about-us {
+    background-color: #1C6041;
+    color: #ffffff;
+}
+
+.about-us-content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.title-aboutUs {
+    margin: auto;
+    font-size: 86px;
+    padding-top: 7.125rem;
+}
+
+.about-us-p {
+    margin: 4.75rem auto;
+    font-size: 24px;
+}
+
+.explore-btn {
+    width: 258px;
+    height: 74px;
+    margin-bottom: 12.125rem;
+    box-shadow: 0px 10px 20px;
+}
+
+.community {
+    color: #1C6041;
+}
+
+.community-content {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3.375rem;
+    text-align: center;
+}
+
+.com-title {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.comm-p {
+    margin: auto;
+    width: 50%;
+    font-size: 16px;
+    margin-bottom: 5rem;
+}

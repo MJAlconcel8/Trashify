@@ -7,7 +7,7 @@ import {v4 as uuidv4} from 'uuid'
 const RecyclingLocations = () => {
   return (
     <div className="locations">
-        <h1>Recycling Locations</h1>
+        <h1 className='.title-location'>Recycling Locations</h1>
 
         <div className="location-cards">
                 {

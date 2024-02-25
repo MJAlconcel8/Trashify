@@ -1,0 +1,45 @@
+.elementsInNavbar {
+    background-color: #1C6041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 64px;
+}
+
+.elementsInNavbar .navbarPages {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.navbarPage {
+    margin: 0 10px;
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    .elementsInNavbar {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.rectangleTrashify {
+    object-fit: auto;
+    object-position: center;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.logout {
+    object-fit: auto;
+    object-position: center;
+    width: 27px;
+    max-width: 100%;
+    position: absolute;
+    right: 200px;
+}
